@@ -86,6 +86,7 @@ public class UniversidadEjemplo {
            System.out.println("------------------------------");
        }*/
       
+     //Desinscribir alumno
       int idAlumno = 1;
       int idMateria = 3;
       String sql= "DELETE FROM inscripcion WHERE idAlumno = ? AND idMateria = ?";
