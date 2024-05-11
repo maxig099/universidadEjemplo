@@ -96,7 +96,7 @@ public class UniversidadEjemplo {
       int filasAfec = ps.executeUpdate();
            
       if(filasAfec > 0) {
-          System.out.println("Desinscripto Correctamente");
+          System.out.println("Desinscrito Correctamente");
       }
       else {
           System.out.println("No se encontro la inscripcion");
